@@ -1,0 +1,25 @@
+This is backend for Assignment-1 Application
+These are the endpoints for CURD operations build with node js
+
+I used Postman service for check these endpoints
+
+For run:
+
+download these file in a folder and open terminal in the same folder and type following commands
+
+1.npm install
+2.tsc -w (optional for typescript)
+3.npm start
+
+
+IN POSTMAN TEST FOLLOWING URLS
+
+1.FOR GET ALL USERS       : GET - http://localhost:8080/users/
+2.FOR UPDATE A USER BY ID : POST- http://localhost:8080/users/{id} (check id from get request)
+
+3.FOR DELETE A USER BY ID : POST - http://localhost:8080/users/{id}
+
+
+
+
+ 
