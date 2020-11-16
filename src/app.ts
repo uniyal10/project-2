@@ -14,4 +14,5 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 
 //routes
 
-app.listen(8080)
+let server = app.listen(8080)
+  export default server
