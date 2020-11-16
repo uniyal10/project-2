@@ -50,6 +50,12 @@ export const deleteUser: RequestHandler = (req, res) => {
   if (userIndex < 0) {
     throw new Error("could not find user!")
   }
+  const user = USERS[userIndex]
   USERS.splice(userIndex, 1)
-  res.send({ message: "user deleted" })
+  res.send({ message: "user deleted",deletedUser:user })
 }
+
+
+
+
+
